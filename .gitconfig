@@ -1,0 +1,13 @@
+[color]
+	ui = auto
+[core]
+	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[user]
+	name = Grigoriy Levanov
+	email = glevanov@gmail.com
+[credential]
+	helper = osxkeychain
