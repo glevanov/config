@@ -1,0 +1,20 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.58844763" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="PLUGIN_FILTER" value="lint" />
+    <property name="SearchEveryWhereHistory" value="/" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="evlsprt3.181" value="12" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Documents/courses/630209-guess-melody&#10;C:/Users/gleva/Documents/courses/630209-financial&#10;C:/Users/gleva/Documents/courses/630209-technomart&#10;C:/Users/gleva/Documents/courses/dengi&#10;C:/Users/gleva/Documents/courses/630209-kekstagram&#10;C:/Users/gleva/cmder/vendor/git-for-windows/bin/git.exe" />
+    <property name="file.gist.reindex.count" value="41" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="settings.code.style.selected.tab.CSS" value="Other" />
+    <property name="settings.code.style.selected.tab.HTML" value="Other" />
+    <property name="ts.lib.d.ts.version" value="2.7.2" />
+  </component>
+</application>
