@@ -1,7 +1,7 @@
 [color]
 	ui = auto
 [core]
-	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
+	editor = code --wait
 [push]
 	default = upstream
 [merge]
