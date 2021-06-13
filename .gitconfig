@@ -8,6 +8,6 @@
 	conflictstyle = diff3
 [user]
 	name = Grigoriy Levanov
-	email = glevanov@gmail.com
+	email = gregory@levanov.io
 [credential]
 	helper = osxkeychain
