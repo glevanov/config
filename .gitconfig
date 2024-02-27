@@ -10,3 +10,5 @@
 	signingKey = /Users/grigoriy/.ssh/id_rsa.pub
 [gpg]
         format = ssh
+[commit]
+        gpgsign = true
