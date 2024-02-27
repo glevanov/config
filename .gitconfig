@@ -1,7 +1,5 @@
-[color]
-	ui = auto
 [core]
-	editor = code --wait
+	editor = nano
 [push]
 	default = upstream
 [merge]
@@ -9,5 +7,6 @@
 [user]
 	name = Grigoriy Levanov
 	email = gregory@levanov.io
-[credential]
-	helper = osxkeychain
+	signingKey = /Users/grigoriy/.ssh/id_rsa.pub
+[gpg]
+        format = ssh
