@@ -7,7 +7,7 @@
 [user]
 	name = Grigoriy Levanov
 	email = gregory@levanov.io
-	signingKey = /Users/grigoriy/.ssh/id_rsa.pub
+	signingkey = /Users/grigoriy/.ssh/id_rsa.pub
 [gpg]
         format = ssh
 [commit]
