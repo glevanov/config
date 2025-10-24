@@ -30,4 +30,6 @@ function h264() {
     ffmpeg -i "$1" -map_metadata -1 -c:a aac -c:v libx264 -crf 24 -preset veryslow -profile:v main -pix_fmt yuv420p -movflags +faststart -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" "${1%.*}".h264.mp4
 }
 
-function yt() { yt-dlp -f 22 "$1" }
+function yt() {
+    yt-dlp -f 22 "$1"
+}
