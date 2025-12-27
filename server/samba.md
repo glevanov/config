@@ -46,9 +46,16 @@ sudo firewall-cmd --reload
   browseable = no
 ```
 
-* Create samba users (linux users and samba users are not the same)
+* Create and enable samba users
 ```bash
 sudo smbpasswd -a user
+sudo smbpasswd -e user
+```
+
+* Label directories so that selinux is happy
+```bash
+sudo semanage fcontext -a -t samba_share_t "/mnt/storage(/.*)?"
+sudo restorecon -Rv /mnt/storage
 ```
 
 * Restart samba
