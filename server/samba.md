@@ -27,12 +27,14 @@ sudo firewall-cmd --reload
   read only = yes
   guest ok = no
   valid users = @nas-users
+  write list = @nas-admins
 
 [Public Music]
   path = /mnt/storage/public/music
   read only = yes
   guest ok = no
   valid users = @nas-users
+  write list = @nas-admins
 
 [Public Shared]
   path = /mnt/storage/public/shared
