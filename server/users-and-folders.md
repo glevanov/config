@@ -24,6 +24,21 @@ sudo adduser user nas-users
 sudo adduser user nas-admins
 ```
 
+* Create readonly user to access media files; they won't be able to access the server, just the samba share
+```bash
+sudo useradd -M -s /sbin/nologin -G nas-users sreader
+```
+
+* Set samba password
+```bash
+sudo smbpasswd -a sreader
+```
+
+* Enable user in samba
+```bash
+sudo smbpasswd -e sreader
+```
+
 * (optional) Create regular users
 ```bash
 sudo useradd -m -G nas-users user
