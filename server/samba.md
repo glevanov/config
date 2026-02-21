@@ -22,6 +22,15 @@ sudo firewall-cmd --reload
   security = user
   map to guest = never
 
+  # Performance & timeout fixes for file transfers
+  deadtime = 0
+  socket options = TCP_NODELAY IPTOS_LOWDELAY SO_KEEPALIVE SO_RCVBUF=131072 SO_SNDBUF=131072
+  use sendfile = yes
+  aio read size = 16384
+  aio write size = 16384
+  strict sync = no
+  sync always = no
+
 [Public Videos]
   path = /mnt/storage/public/videos
   read only = yes
