@@ -18,6 +18,8 @@ sudo nano /etc/navidrome/navidrome.toml
 # MusicFolder = "/mnt/storage/public/music"
 ```
 
+* Last.fm integration requires configuring API keys and putting them in `LastFM.ApiKey` and `LastFM.Secret` in the config
+
 * Configure firewall
 ```bash
 sudo firewall-cmd --add-port=4533/tcp
