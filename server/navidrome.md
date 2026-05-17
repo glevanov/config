@@ -20,10 +20,12 @@ sudo nano /etc/navidrome/navidrome.toml
 
 * Last.fm integration requires configuring API keys and putting them in `LastFM.ApiKey` and `LastFM.Secret` in the config
 
-* Configure firewall
-```bash
-sudo firewall-cmd --add-port=4533/tcp
-sudo firewall-cmd --runtime-to-permanent
+* Reverse proxy setup requires this:
+```
+BaseUrl = "/navidrome"
 ```
 
-It's now available at `http://<server ip>:4533/`
+* Start the service
+```bash
+sudo systemctl enable --now navidrome
+```
